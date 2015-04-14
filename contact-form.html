@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>HTML PHP Contact Form by WebDesy.com</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<form action="send-mail.php" method="POST">
+	<label for="field_name">Name:</label>
+	<input type="text" id="field_name" name="sender_name">
+	<br /><br />
+
+	<label for="field_email">Your e-mail:</label>
+	<input type="text" id="field_email" name="sender_email">
+	<br /><br />
+	
+	<label for="field_phone">Phone:</label>
+	<input type="text" id="field_phone" name="sender_phone">
+	<br /><br />
+	
+	<label for="field_message">Message:</label>
+	<textarea id="field_message" name="sender_message"></textarea>
+	<br /><br />
+	
+	<input type="submit" name="send_message" value="Send">
+</form>
+</body>
+</html>
+
